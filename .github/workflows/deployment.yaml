@@ -1,0 +1,58 @@
+name: Generate SVGs and Deploy to Branch
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  generate-svgs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Kroki CLI
+        run: |
+          curl -fsSL https://github.com/yuzutech/kroki/releases/latest/download/kroki-cli-linux -o kroki
+          chmod +x kroki
+          sudo mv kroki /usr/local/bin/
+
+      - name: Create Deployment Directory
+        run: mkdir -p deploy
+
+      - name: Find and Convert Diagram Files
+        run: |
+          if [ ! -f .kroki_extensions ]; then
+            echo "No .kroki_extensions file found!"
+            exit 1
+          fi
+
+          EXTENSIONS=$(cat .kroki_extensions | tr '\n' '|' | sed 's/|$//')
+          for file in $(find . -type f -regextype posix-extended -regex ".*(${EXTENSIONS})$"); do
+            echo "Processing $file..."
+            mkdir -p "deploy/$(dirname "$file")"
+            kroki convert -f svg "$file" -o "deploy/$file.svg" && rm "$file"
+          done
+
+      - name: Generate index.html
+        run: |
+          echo "<!DOCTYPE html><html><head><title>SVG Directory</title></head><body><h1>Generated SVGs</h1><ul>" > deploy/index.html
+          find deploy -type f -name "*.svg" | while read file; do
+            relative_path=${file#deploy/}
+            echo "<li><a href=\"$relative_path\">$relative_path</a></li>" >> deploy/index.html
+          done
+          echo "</ul></body></html>" >> deploy/index.html
+
+      - name: Deploy to `deploy` Branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan deploy
+          git reset --hard
+          mv deploy/* .
+          git add .
+          git commit -m "Deploy generated SVGs"
+          git push --force origin deploy

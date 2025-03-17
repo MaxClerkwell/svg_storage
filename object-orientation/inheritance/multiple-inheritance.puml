@@ -1,0 +1,38 @@
+@startuml
+class A {
+  +methodA()
+}
+
+class B {
+  +methodB()
+}
+
+class C {
+  +methodC()
+}
+
+class D {
+  +methodD()
+}
+
+class X {
+  +methodX()
+}
+
+class Y {
+  +methodY()
+}
+
+class Z {
+  +methodZ()
+}
+
+X --|> A
+X --|> B
+Y --|> B
+Y --|> C
+Z --|> C
+Z --|> D
+Y --|> X
+Z --|> Y
+@enduml
