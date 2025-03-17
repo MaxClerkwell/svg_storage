@@ -43,6 +43,7 @@ jobs:
 
       - name: Generate index.html
         run: |
+          find deploy -type f
           echo "<!DOCTYPE html><html><head><title>SVG Directory</title></head><body><h1>Generated SVGs</h1><ul>" > deploy/index.html
           find deploy -type f -name "*.svg" | while read file; do
             relative_path=${file#deploy/}
