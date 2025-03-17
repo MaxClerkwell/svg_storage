@@ -63,8 +63,8 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git checkout --orphan deploy
           git reset --hard
-          mv deploy/* .
           rm -rf deploy
+          mv deploy/* .
           git add .
           git commit -m "Deploy generated and manual SVGs"
           git push --force git@github.com:MaxClerkwell/svg_storage.git deploy
