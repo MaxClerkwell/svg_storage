@@ -48,6 +48,13 @@ jobs:
           done
           echo "</ul></body></html>" >> deploy/index.html
 
+      - name: Setup SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
       - name: Deploy to `deploy` Branch
         run: |
           git config --global user.name "github-actions[bot]"
@@ -57,4 +64,5 @@ jobs:
           mv deploy/* .
           git add .
           git commit -m "Deploy generated SVGs"
-          git push --force https://x-access-token:${{ secrets.GH_PAT }}@github.com/MaxClerkwell/svg_storage.git deploy
+          git push --force git@github.com:MaxClerkwell/svg_storage.git deploy
+
