@@ -46,7 +46,7 @@ jobs:
           echo "<!DOCTYPE html><html><head><title>SVG Directory</title></head><body><h1>Generated SVGs</h1><ul>" > deploy/index.html
           find deploy -type f -name "*.svg" | while read file; do
             relative_path=${file#deploy/}
-            echo "<li><a href=\"$relative_path\">$relative_path</a></li>" >> deploy/index.html
+            echo "<li><a href=\"${relative_path#*/}\">${relative_path#*/}</a></li>" >> deploy/index.html
           done
           echo "</ul></body></html>" >> deploy/index.html
 
