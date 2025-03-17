@@ -23,7 +23,9 @@ jobs:
           sudo mv kroki /usr/local/bin/kroki
 
       - name: Create Deployment Directory
-        run: mkdir -p deploy
+        run: |
+          mkdir -p deploy
+          cp -r *.svg deploy/ 2>/dev/null || true
 
       - name: Find and Convert Diagram Files
         run: |
@@ -48,13 +50,6 @@ jobs:
           done
           echo "</ul></body></html>" >> deploy/index.html
 
-      - name: Setup SSH Key
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-
       - name: Deploy to `deploy` Branch
         run: |
           git config --global user.name "github-actions[bot]"
@@ -63,6 +58,5 @@ jobs:
           git reset --hard
           mv deploy/* .
           git add .
-          git commit -m "Deploy generated SVGs"
+          git commit -m "Deploy generated and manual SVGs"
           git push --force git@github.com:MaxClerkwell/svg_storage.git deploy
-
