@@ -25,7 +25,8 @@ jobs:
       - name: Create Deployment Directory
         run: |
           mkdir -p deploy
-          find . -type f -name "*.svg" -exec cp --parents {} deploy/ \;
+          find . -type f -name "*.svg" -not -path "./deploy/*" -exec cp --parents {} deploy/ \;
+
 
       - name: Find and Convert Diagram Files
         run: |
