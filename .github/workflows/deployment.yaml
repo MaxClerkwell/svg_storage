@@ -16,7 +16,7 @@ jobs:
 
       - name: Install Kroki CLI
         run: |
-          LATEST_VERSION=$(curl -s https://api.github.com/repos/yuzutech/kroki-cli/releases/latest | jq -r '.tag_name')
+          LATEST_VERSION=$(curl -s https://api.github.com/repos/yuzutech/kroki-cli/releases/latest | jq -r '.tag_name' | sed 's/^v//')
           curl -fsSL "https://github.com/yuzutech/kroki-cli/releases/latest/download/kroki-cli_${LATEST_VERSION}_linux_amd64.tar.gz" -o kroki-cli.tar.gz
           tar -xzf kroki-cli.tar.gz
           chmod +x kroki-cli
