@@ -16,9 +16,11 @@ jobs:
 
       - name: Install Kroki CLI
         run: |
-          curl -fsSL https://github.com/yuzutech/kroki/releases/latest/download/kroki-cli-linux -o kroki
-          chmod +x kroki
-          sudo mv kroki /usr/local/bin/
+          LATEST_VERSION=$(curl -s https://api.github.com/repos/yuzutech/kroki-cli/releases/latest | jq -r '.tag_name')
+          curl -fsSL "https://github.com/yuzutech/kroki-cli/releases/latest/download/kroki-cli_${LATEST_VERSION}_linux_amd64.tar.gz" -o kroki-cli.tar.gz
+          tar -xzf kroki-cli.tar.gz
+          chmod +x kroki-cli
+          sudo mv kroki-cli /usr/local/bin/kroki
 
       - name: Create Deployment Directory
         run: mkdir -p deploy
