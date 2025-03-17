@@ -19,8 +19,8 @@ jobs:
           LATEST_VERSION=$(curl -s https://api.github.com/repos/yuzutech/kroki-cli/releases/latest | jq -r '.tag_name' | sed 's/^v//')
           curl -fsSL "https://github.com/yuzutech/kroki-cli/releases/latest/download/kroki-cli_${LATEST_VERSION}_linux_amd64.tar.gz" -o kroki-cli.tar.gz
           tar -xzf kroki-cli.tar.gz
-          chmod +x kroki
-          sudo mv kroki /usr/local/bin/kroki
+          chmod +x kroki-cli
+          sudo mv kroki-cli /usr/local/bin/kroki
 
       - name: Create Deployment Directory
         run: mkdir -p deploy
@@ -57,4 +57,4 @@ jobs:
           mv deploy/* .
           git add .
           git commit -m "Deploy generated SVGs"
-          git push --force origin deploy
+          git push --force https://x-access-token:${{ secrets.GH_PAT }}@github.com/MaxClerkwell/svg_storage.git deploy
