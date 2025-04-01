@@ -71,14 +71,14 @@
             <g id="id4">
               <path d="M 10737,8600 L 6399,8600 6399,6900 15074,6900 15074,8600 10737,8600 Z" id="path4434" stroke="none" fill="rgb(153,102,204)"/>
               <path d="M 10737,8600 L 6399,8600 6399,6900 15074,6900 15074,8600 10737,8600 Z" id="path4436" stroke="rgb(0,0,0)" fill="none"/>
-              <text class="TextShape" id="text4450" x="-50.785973" y="330.10883"><tspan class="TextParagraph" font-size="635px" font-weight="400" id="tspan4442" style="font-weight:400;font-size:635px;font-family:'Liberation Mono', monospace"><tspan class="TextPosition" x="6598.2139" y="7889.1089" id="tspan4440" style="fill:#000000;stroke:none">6. Darstellungsschicht</tspan></tspan></text>
+              <text class="TextShape" id="text4450" x="-50.785973" y="330.10883"><tspan class="TextParagraph" font-size="635px" font-weight="400" id="tspan4442" style="font-weight:400;font-size:635px;font-family:'Liberation Mono', monospace"><tspan class="TextPosition" x="6598.2139" y="7889.1089" id="tspan4440" style="fill:#888888;stroke:none">6. Darstellungsschicht</tspan></tspan></text>
             </g>
           </g>
           <g class="com.sun.star.drawing.CustomShape" id="g4474">
             <g id="id5">
               <path d="M 10737,10300 L 6399,10300 6399,8600 15074,8600 15074,10300 10737,10300 Z" id="path4455" stroke="none" fill="rgb(179,179,0)"/>
               <path d="M 10737,10300 L 6399,10300 6399,8600 15074,8600 15074,10300 10737,10300 Z" id="path4457" stroke="rgb(0,0,0)" fill="none"/>
-              <text class="TextShape" id="text4471" x="-25.392986" y="330.10883"><tspan class="TextParagraph" font-size="635px" font-weight="400" id="tspan4463" style="font-weight:400;font-size:635px;font-family:'Liberation Mono', monospace"><tspan class="TextPosition" x="6623.6069" y="9589.1084" id="tspan4461" style="fill:#000000;stroke:none">5. Sitzungsschicht</tspan></tspan></text>
+              <text class="TextShape" id="text4471" x="-25.392986" y="330.10883"><tspan class="TextParagraph" font-size="635px" font-weight="400" id="tspan4463" style="font-weight:400;font-size:635px;font-family:'Liberation Mono', monospace"><tspan class="TextPosition" x="6623.6069" y="9589.1084" id="tspan4461" style="fill:#888888;stroke:none">5. Sitzungsschicht</tspan></tspan></text>
             </g>
           </g>
           <g class="com.sun.star.drawing.CustomShape" id="g4489">
@@ -113,21 +113,21 @@
             <g id="id10">
               <path d="M 25062,6900 L 20724,6900 20724,5200 29399,5200 29399,6900 25062,6900 Z" id="path4542" stroke="none" fill="rgb(235,97,61)"/>
               <path d="M 25062,6900 L 20724,6900 20724,5200 29399,5200 29399,6900 25062,6900 Z" id="path4544" stroke="rgb(0,0,0)" fill="none"/>
-              <text class="TextShape" id="text4558"><tspan class="TextParagraph" font-size="635px" font-weight="400" id="tspan4556" style="font-weight:400;font-size:635px;font-family:'Liberation Mono', monospace"><tspan class="TextPosition" x="20870" y="6219" id="tspan4554"><tspan id="tspan4548" style="fill:#000000;stroke:none">7.</tspan><tspan id="tspan4550" style="font-family:FreeMono, monospace;fill:#000000;stroke:none"> </tspan><tspan id="tspan4552" style="fill:#000000;stroke:none">Anwendungsschicht</tspan></tspan></tspan></text>
+              <text class="TextShape" id="text4558"><tspan class="TextParagraph" font-size="635px" font-weight="400" id="tspan4556" style="font-weight:400;font-size:635px;font-family:'Liberation Mono', monospace"><tspan class="TextPosition" x="20870" y="6219" id="tspan4554"><tspan id="tspan4548" style="fill:#888888;stroke:none">7.</tspan><tspan id="tspan4550" style="font-family:FreeMono, monospace;fill:#888888;stroke:none"> </tspan><tspan id="tspan4552" style="fill:#888888;stroke:none">Anwendungsschicht</tspan></tspan></tspan></text>
             </g>
           </g>
           <g class="com.sun.star.drawing.CustomShape" id="g4582">
             <g id="id11">
               <path d="M 25062,8600 L 20724,8600 20724,6900 29399,6900 29399,8600 25062,8600 Z" id="path4563" stroke="none" fill="rgb(153,102,204)"/>
               <path d="M 25062,8600 L 20724,8600 20724,6900 29399,6900 29399,8600 25062,8600 Z" id="path4565" stroke="rgb(0,0,0)" fill="none"/>
-              <text class="TextShape" id="text4579" x="-25.392986" y="330.10883"><tspan class="TextParagraph" font-size="635px" font-weight="400" id="tspan4571" style="font-weight:400;font-size:635px;font-family:'Liberation Mono', monospace"><tspan class="TextPosition" x="20948.607" y="7889.1089" id="tspan4569" style="fill:#000000;stroke:none">6. Darstellungschicht</tspan></tspan></text>
+              <text class="TextShape" id="text4579" x="-25.392986" y="330.10883"><tspan class="TextParagraph" font-size="635px" font-weight="400" id="tspan4571" style="font-weight:400;font-size:635px;font-family:'Liberation Mono', monospace"><tspan class="TextPosition" x="20948.607" y="7889.1089" id="tspan4569" style="fill:#888888;stroke:none">6. Darstellungschicht</tspan></tspan></text>
             </g>
           </g>
           <g class="com.sun.star.drawing.CustomShape" id="g4603">
             <g id="id12">
               <path d="M 25062,10300 L 20724,10300 20724,8600 29399,8600 29399,10300 25062,10300 Z" id="path4584" stroke="none" fill="rgb(179,179,0)"/>
               <path d="M 25062,10300 L 20724,10300 20724,8600 29399,8600 29399,10300 25062,10300 Z" id="path4586" stroke="rgb(0,0,0)" fill="none"/>
-              <text class="TextShape" id="text4600" x="-50.785973" y="327.97812"><tspan class="TextParagraph" font-size="635px" font-weight="400" id="tspan4592" style="font-weight:400;font-size:635px;font-family:'Liberation Mono', monospace"><tspan class="TextPosition" x="20923.215" y="9586.9775" id="tspan4590" style="fill:#000000;stroke:none">5. Sitzungsschicht</tspan></tspan></text>
+              <text class="TextShape" id="text4600" x="-50.785973" y="327.97812"><tspan class="TextParagraph" font-size="635px" font-weight="400" id="tspan4592" style="font-weight:400;font-size:635px;font-family:'Liberation Mono', monospace"><tspan class="TextPosition" x="20923.215" y="9586.9775" id="tspan4590" style="fill:#888888;stroke:none">5. Sitzungsschicht</tspan></tspan></text>
             </g>
           </g>
           <g class="com.sun.star.drawing.CustomShape" id="g4618">
@@ -284,12 +284,12 @@
           <g class="com.sun.star.drawing.TextShape" id="g4946"/>
           <g class="com.sun.star.drawing.CustomShape" id="g4953"/>
           <g class="com.sun.star.drawing.CustomShape" id="g4960"/>
-          <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:1058.33337402px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:746.70709229" x="-16607.012" y="17064.088" id="text717"><tspan sodipodi:role="line" id="tspan715" x="-16607.012" y="18000.465" style="stroke-width:746.70709229"/>
+          <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:1058.33337402px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#888888;fill-opacity:1;stroke:none;stroke-width:746.70709229" x="-16607.012" y="17064.088" id="text717"><tspan sodipodi:role="line" id="tspan715" x="-16607.012" y="18000.465" style="stroke-width:746.70709229"/>
 </text>
-          <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:1058.33337402px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:746.70709229" x="856.96936" y="11706.168" id="text721"><tspan sodipodi:role="line" id="tspan719" x="856.96936" y="11706.168" style="font-size:705.55554199px;stroke-width:746.70709229">Netzwerk-</tspan><tspan sodipodi:role="line" x="856.96936" y="13029.085" style="font-size:705.55554199px;stroke-width:746.70709229" id="tspan725">bezogene</tspan><tspan sodipodi:role="line" x="856.96936" y="14352.001" style="font-size:705.55554199px;stroke-width:746.70709229" id="tspan731">Schichten</tspan></text>
-          <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:1058.33337402px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:746.70709229" x="23818.621" y="1980.6537" id="text739"><tspan sodipodi:role="line" id="tspan737" x="23818.621" y="1980.6537" style="stroke-width:746.70709229">1</tspan></text>
+          <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:1058.33337402px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#888888;fill-opacity:1;stroke:none;stroke-width:746.70709229" x="856.96936" y="11706.168" id="text721"><tspan sodipodi:role="line" id="tspan719" x="856.96936" y="11706.168" style="font-size:705.55554199px;stroke-width:746.70709229">Netzwerk-</tspan><tspan sodipodi:role="line" x="856.96936" y="13029.085" style="font-size:705.55554199px;stroke-width:746.70709229" id="tspan725">bezogene</tspan><tspan sodipodi:role="line" x="856.96936" y="14352.001" style="font-size:705.55554199px;stroke-width:746.70709229" id="tspan731">Schichten</tspan></text>
+          <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:1058.33337402px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#888888;fill-opacity:1;stroke:none;stroke-width:746.70709229" x="23818.621" y="1980.6537" id="text739"><tspan sodipodi:role="line" id="tspan737" x="23818.621" y="1980.6537" style="stroke-width:746.70709229">1</tspan></text>
         </g>
-        <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:1058.33337402px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:746.70709229" x="888.75452" y="6119.7104" id="text709"><tspan sodipodi:role="line" id="tspan707" x="888.75452" y="6119.7104" style="font-size:705.55554199px;stroke-width:746.70709229">Anwendungs-</tspan><tspan sodipodi:role="line" x="888.75452" y="7442.627" style="font-size:705.55554199px;stroke-width:746.70709229" id="tspan713">bezogene</tspan><tspan sodipodi:role="line" x="888.75452" y="8765.5439" style="font-size:705.55554199px;stroke-width:746.70709229" id="tspan711">Schichten</tspan></text>
+        <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:1058.33337402px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#888888;fill-opacity:1;stroke:none;stroke-width:746.70709229" x="888.75452" y="6119.7104" id="text709"><tspan sodipodi:role="line" id="tspan707" x="888.75452" y="6119.7104" style="font-size:705.55554199px;stroke-width:746.70709229">Anwendungs-</tspan><tspan sodipodi:role="line" x="888.75452" y="7442.627" style="font-size:705.55554199px;stroke-width:746.70709229" id="tspan713">bezogene</tspan><tspan sodipodi:role="line" x="888.75452" y="8765.5439" style="font-size:705.55554199px;stroke-width:746.70709229" id="tspan711">Schichten</tspan></text>
       </g>
     </g>
   </g>
