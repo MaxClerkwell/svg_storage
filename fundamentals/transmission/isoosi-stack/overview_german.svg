@@ -5,6 +5,7 @@
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -1348,4 +1349,17 @@
 </g>
   </g>
  </g>
+<a xlink:href="https://commons.wikimedia.org/wiki/File:ISO-OSI-7-Schichten-Modell_(in_Deutsch).svg" target="_blank">
+  <text
+     x="24000"
+     y="20500"
+     font-size="500"
+     fill="blue"
+     text-decoration="underline"
+     font-family="sans-serif">
+    Michael von Brandenburg, 2022
+  </text>
+</a>
+
+
 </svg>
