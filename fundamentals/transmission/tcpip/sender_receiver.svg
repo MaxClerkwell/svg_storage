@@ -6,8 +6,9 @@
    xmlns:cc="http://web.resource.org/cc/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
+
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1364.1899"
@@ -738,7 +739,7 @@
          y="57.834839">Sender</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       style="font-size:24px;font-style:normal;font-weight:normal;fill:#888888;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
        x="-556.495"
        y="1108.9492"
        id="text12360"
@@ -756,7 +757,7 @@
        y="1000.1005" />
     <text
        xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       style="font-size:24px;font-style:normal;font-weight:normal;fill:#888888;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
        x="98.742188"
        y="1027.8347"
        id="text13335"><tspan
@@ -765,12 +766,10 @@
          x="98.742188"
          y="1027.8347">TCP-Header</tspan></text>
   </g>
-  <svg xmlns="http://www.w3.org/2000/svg" width="400" height="30">
   <a xlink:href="https://commons.wikimedia.org/wiki/File:Tcp_daten.svg" target="_blank">
-    <text x="0" y="20" font-size="16" fill="blue" text-decoration="underline">
+    <text x="1200" y="1025" font-size="16" fill="blue" text-decoration="underline">
       	Appaloosa, 2007
     </text>
   </a>
 </svg>
 
-</svg>
