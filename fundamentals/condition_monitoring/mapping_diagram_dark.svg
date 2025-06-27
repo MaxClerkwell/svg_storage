@@ -1,0 +1,167 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- First Row -->
+    <ellipse cx="200" cy="140" rx="30" ry="60" fill="#FFDAB9" stroke="#FF4500"/>
+    <text x="150" y="70" font-size="14" font-style="italic" fill="#E0FFFF">Machine States</text>
+    <circle cx="190" cy="110" r="3" fill="#FF4500"/>
+    <circle cx="210" cy="140" r="3" fill="#FF4500"/>
+    <circle cx="190" cy="170" r="3" fill="#FF4500"/>
+    
+    <ellipse cx="400" cy="170" rx="30" ry="60" fill="#FFDAB9" stroke="#FF4500"/>
+    <text x="365" y="100" font-size="14" font-family="Times New Roman, serif" font-style="italic" fill="#E0FFFF" >
+      <tspan>i</tspan>
+      <tspan>∈</tspan>
+      <tspan>I</tspan>
+      <tspan baseline-shift="super" font-size="10">n</tspan>
+      <tspan font-size="10" dx="-8" dy="5">nput-set</tspan>
+    </text>
+    <circle cx="390" cy="140" r="3" fill="#FF4500"/>
+    <circle cx="410" cy="170" r="3" fill="#FF4500"/>
+    <circle cx="390" cy="200" r="3" fill="#FF4500"/>
+    
+    <ellipse cx="600" cy="170" rx="30" ry="60" fill="#FFDAB9" stroke="#FF4500"/>
+    <text x="550" y="100" font-size="14" font-family="Times New Roman, serif" font-style="italic" fill="#E0FFFF" >
+      <tspan>internal i</tspan>
+      <tspan>R</tspan>
+      <tspan baseline-shift="super" font-size="10">n</tspan>
+      <tspan font-size="10" dx="-8" dy="5">ep-set</tspan>
+    </text>
+    <text font-size="14" font-family="Times New Roman, serif" font-style="italic" fill="#E0FFFF" >
+      <tspan x="640" y="160" >bond by the</tspan>
+      <tspan x="640" y="175" >available number</tspan>
+      <tspan x="640" y="190" >of bits</tspan>
+    </text>
+    <circle cx="590" cy="150" r="3" fill="#FF4500"/>
+    <circle cx="610" cy="190" r="3" fill="#FF4500"/>
+    
+    <!-- Second Row -->
+    <ellipse cx="200" cy="440" rx="30" ry="60" fill="#FFDAB9" stroke="#FF4500"/>
+    <text font-size="14" font-family="Times New Roman, serif" font-style="italic" fill="#E0FFFF">
+      <tspan x="122" y="520" >Condition Representation</tspan>
+      <tspan x="160" y="535" >"Digital Twin"</tspan>
+    </text>
+    <circle cx="190" cy="445" r="3" fill="#FF4500"/>
+    <circle cx="210" cy="470" r="3" fill="#FF4500"/>
+    <circle cx="210" cy="420" r="3" fill="#FF4500"/>
+    
+    <ellipse cx="400" cy="410" rx="30" ry="60" fill="#FFDAB9" stroke="#FF4500"/>
+    <text x="370" y="480" font-size="14" font-family="Times New Roman, serif" font-style="italic" fill="#E0FFFF" >
+      <tspan>O</tspan>
+      <tspan font-size="10" dx="-4" dy="5">utput-Set</tspan>
+    </text>
+    <circle cx="390" cy="415" r="3" fill="#FF4500"/>
+    <circle cx="410" cy="390" r="3" fill="#FF4500"/>
+    <circle cx="410" cy="440" r="3" fill="#FF4500"/>
+    
+    <ellipse cx="600" cy="410" rx="30" ry="60" fill="#FFDAB9" stroke="#FF4500"/>
+    <text x="550" y="490" font-size="14" font-family="Times New Roman, serif" font-style="italic" fill="#E0FFFF" >
+      <tspan>internal o</tspan>
+      <tspan>R</tspan>
+      <tspan baseline-shift="super" font-size="10">n</tspan>
+      <tspan font-size="10" dx="-8" dy="5">ep-set</tspan>
+    </text>
+    <circle cx="600" cy="390" r="3" fill="#FF4500"/>
+    <circle cx="615" cy="415" r="3" fill="#FF4500"/>
+    <circle cx="590" cy="440" r="3" fill="#FF4500"/>
+    
+    <!-- Arrows with Explanation Space -->
+    <line x1="190" y1="110" x2="390" y2="140" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+    <text x="250" y="142" font-size="12" transform="rotate(8.53, 250, 135)" font-style="italic" fill="#E0FFFF" >
+      <tspan x="250" dy="0">set of all possible</tspan>
+      <tspan x="250" dy="15">measurement values</tspan>
+</text>
+    
+    <line x1="210" y1="140" x2="410" y2="170" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+
+    <line x1="190" y1="170" x2="390" y2="200" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+    <text x="260" y="190" font-size="12" transform="rotate(8.53, 250, 135)" font-style="italic" fill="#E0FFFF" >which qualities</text>
+
+    <line x1="390" y1="140" x2="590" y2="150" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+    <text x="480" y="140" font-size="12" font-style="italic" fill="#E0FFFF" >ADC</text>
+    
+    <line x1="410" y1="170" x2="610" y2="190" stroke="#E0FFFF" marker-end="url(#arrow)" font-style="italic"/>
+    <text x="485" y="175" font-size="12" transform="rotate(5.71, 510, 180)" fill="#E0FFFF" >EE</text>
+
+    <line x1="390" y1="200" x2="610" y2="190" stroke="#E0FFFF" marker-end="url(#arrow)" font-style="italic" />
+    <text x="460" y="210" font-size="12" font-style="italic" transform="rotate(-2.6, 500, 195)" fill="#E0FFFF">f(i)≙encoding</text>
+
+    <line x1="610" y1="190" x2="615" y2="415" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+    <text x="560" y="295" font-size="12" font-style="italic" transform="rotate(88.73 615 300)" fill="#E0FFFF">g(iR)≙processing</text>
+
+  <!-- Step-like graph (positioned to the left) -->
+  <!-- Draw the axes -->
+  <line x1="650" y1="320" x2="760" y2="320" stroke="#E0FFFF" stroke-width="1" marker-end="url(#arrow)" /> <!-- X-axis -->
+  <line x1="650" y1="320" x2="650" y2="210" stroke="#E0FFFF" stroke-width="1" marker-end="url(#arrow)" /> <!-- Y-axis -->
+  <text x="640" y="265" font-size="12" fill="#E0FFFF">1</text> <!-- Y-axis label -->
+  <text x="640" y="325" font-size="12" fill="#E0FFFF">0</text> <!-- Y-axis label at origin -->
+
+  <!-- Draw the step-like graph -->
+  <polyline points="650,320 700,320 700,265 750,265" fill="none" stroke="#E0FFFF" stroke-width="2" />
+
+  <!-- Draw the label "iRep≠oIRp" -->
+  <text x="675" y="335" font-size="12" font-style="italic" fill="#E0FFFF">iRep≠oRep</text>
+  
+    <line x1="590" y1="150" x2="600" y2="390" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+
+    <line x1="590" y1="150" x2="590" y2="440" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+
+    <line x1="600" y1="390" x2="410" y2="390" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+    <text x="460" y="385" font-size="12" font-style="italic" fill="#E0FFFF" >Output Driver</text>
+
+    <line x1="615" y1="415" x2="390" y2="415" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+    <text x="490" y="410" font-size="12" font-style="italic" fill="#E0FFFF">EE</text>
+
+    <line x1="590" y1="440" x2="410" y2="440" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+    <text font-size="12" font-style="italic" fill="#E0FFFF">
+      <tspan x="455" y="437" >h(iR)≙decoding</tspan>
+      <tspan x="490" y="451" >or presenting</tspan>
+    </text>
+
+    <line x1="410" y1="390" x2="210" y2="420" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+    <text x="" y="" font-size="12"></text>
+
+    <line x1="390" y1="415" x2="190" y2="445" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+    <text x="" y="" font-size="12"></text>
+  
+    <line x1="410" y1="440" x2="210" y2="470" stroke="#E0FFFF" marker-end="url(#arrow)"/>
+    <text x="" y="" font-size="12"></text>
+
+    <line x1="195" y1="200" x2="195" y2="370" stroke="#E0FFFF"/>
+    <line x1="205" y1="200" x2="205" y2="370" stroke="#E0FFFF"/>
+    <path d="M 190 370 L 200 380 L 210 370" fill="#E0FFFF"/>
+    <text x="" y="" font-size="12"></text>
+    <!-- Stick figure (positioned above the graph) -->
+    <!-- Head -->
+    <circle cx="165" cy="250" r="10" fill="none" stroke="#E0FFFF" stroke-width="2" />
+    <!-- Torso -->
+    <line x1="165" y1="260" x2="165" y2="290" stroke="#E0FFFF" stroke-width="2" />
+    <!-- Left arm (from viewer's perspective) -->
+    <line x1="165" y1="280" x2="150" y2="265" stroke="#E0FFFF" stroke-width="2" />
+    <!-- Right arm (from viewer's perspective) -->
+    <line x1="165" y1="280" x2="180" y2="265" stroke="#E0FFFF" stroke-width="2" />
+    <!-- Left leg (from viewer's perspective) -->
+    <line x1="165" y1="290" x2="150" y2="310" stroke="#E0FFFF" stroke-width="2" />
+    <!-- Right leg (from viewer's perspective) -->
+    <line x1="165" y1="290" x2="180" y2="310" stroke="#E0FFFF" stroke-width="2" />
+
+    <!-- Stick figure (positioned above the graph) -->
+    <!-- Head -->
+    <circle cx="135" cy="430" r="10" fill="none" stroke="#E0FFFF" stroke-width="2" />
+    <!-- Torso -->
+    <line x1="135" y1="440" x2="135" y2="470" stroke="#E0FFFF" stroke-width="2" />
+    <!-- Left arm (from viewer's perspective) -->
+    <line x1="135" y1="460" x2="120" y2="445" stroke="#E0FFFF" stroke-width="2" />
+    <!-- Right arm (from viewer's perspective) -->
+    <line x1="135" y1="460" x2="150" y2="445" stroke="#E0FFFF" stroke-width="2" />
+    <!-- Left leg (from viewer's perspective) -->
+    <line x1="135" y1="470" x2="120" y2="490" stroke="#E0FFFF" stroke-width="2" />
+    <!-- Right leg (from viewer's perspective) -->
+    <line x1="135" y1="470" x2="150" y2="490" stroke="#E0FFFF" stroke-width="2" />
+  
+    <!-- Arrow Marker -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L6,3 L0,6 Z" fill="#E0FFFF"/>
+        </marker>
+    </defs>
+</svg>
+
